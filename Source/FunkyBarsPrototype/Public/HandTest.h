@@ -15,6 +15,8 @@ public:
 	// Sets default values for this character's properties
 	AHandTest();
 
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -24,6 +26,9 @@ protected:
 
 	/** Called for side to side input */
 	void MoveRight(float value);
+
+	/*Called for up and down input*/
+	void MoveUp(float value);
 
 public:	
 	// Called every frame
